@@ -8,12 +8,10 @@ from django.core.paginator import Paginator
 from operator import itemgetter
 from django.db.models import Q
 from rest_framework import generics
-from rest_framework.generics import GenericAPIView
 # Create your views here.
 
-class user(GenericAPIView):
+class user(APIView):
     
-    serializer_class = usersSerializer
     def get(self,request):
         page = request.query_params.get('page',1)
         limit = request.query_params.get('limit',5)
