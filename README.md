@@ -8,7 +8,7 @@ It has following functionalities:
 	
     .sort list by field(like = age,name,zip,etc.) (http://127.0.0.1:8000/api/users?sort=-age GET)
     
-	.pagination of users list (127.0.0.1:8000/api/users?page=1&limit=10 GET)
+    .pagination of users list (127.0.0.1:8000/api/users?page=1&limit=10 GET)
 	 There are 2 field in pagnation :- 1. page = 1(default value), last(write last to get to the last page)
 	                                   2. limit = 5(default value)
 	
@@ -21,3 +21,5 @@ It has following functionalities:
     .delete a user (http://127.0.0.1:8000/api/users/{id} - DELETE)
     
     
+    This is a Webpage.
+    Live :- https://simplestockpriceview.herokuapp.com/
